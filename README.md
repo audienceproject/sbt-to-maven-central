@@ -1,7 +1,7 @@
 # Publish an SBT project to Maven Central
 
-* **user**: The username that was used when registering (Initial Setup)[http://central.sonatype.org/pages/ossrh-guide.html#initial-setup].
-* **password**: The password that was used when registering (Initial Setup)[http://central.sonatype.org/pages/ossrh-guide.html#initial-setup].
+* **user**: The username that was used when registering [Initial Setup](http://central.sonatype.org/pages/ossrh-guide.html#initial-setup).
+* **password**: The password that was used when registering [Initial Setup](http://central.sonatype.org/pages/ossrh-guide.html#initial-setup).
 * **private-key**: The PGP private key corresponding to your identity.
 * **passphrase**: The passphrase corresponding to your private key. It will have to be provided as a one-liner with `\n` for the newlines (Eg: `-----BEGIN PGP PRIVATE KEY BLOCK-----\n\n******* .... ******\n-----END PGP PRIVATE KEY BLOCK-----`).
 * **destination**: The destination of the artefact. Can be one of: `SNAPSHOT`, `RELEASE`. Defaults to **SNAPSHOT**
