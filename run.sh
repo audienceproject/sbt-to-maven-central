@@ -21,7 +21,7 @@ echo 'addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")' >> ~/.sbt/0.13/plugins
 if [[ "$WERCKER_SBT_TO_MAVEN_CENTRAL_DESTINATION" == "RELEASE" ]]; then
     echo "$WERCKER_SBT_TO_MAVEN_CENTRAL_PASSPHRASE" | sbt +publishSigned
 else
-    echo "$WERCKER_SBT_TO_MAVEN_CENTRAL_PASSPHRASE" | sbt +publishSnapshotSigned
+    echo "$WERCKER_SBT_TO_MAVEN_CENTRAL_PASSPHRASE" | sbt +publishSnapshot
 fi
 
 

@@ -1,5 +1,5 @@
 name: sbt-to-maven-central
-version: 1.0.0
+version: 1.0.1
 description: A Wercker step to publish an SBT project to Maven Central
 keywords:
   - lambda

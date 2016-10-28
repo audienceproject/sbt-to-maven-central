@@ -1,5 +1,7 @@
 # Publish an SBT project to Maven Central
 
+This step simplifies the cumbersome process of publishing an SBT based artefact to Maven Central. You will need to be using SBT version 0.13 and up for this to work. Also you must have completed all the required steps that are a prerequisite to publishing to Maven Central.
+
 * **user**: The username that was used when registering [Initial Setup](http://central.sonatype.org/pages/ossrh-guide.html#initial-setup).
 * **password**: The password that was used when registering [Initial Setup](http://central.sonatype.org/pages/ossrh-guide.html#initial-setup).
 * **private-key**: The PGP private key corresponding to your identity.
